@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plantilla ATStudios</title>
+    <style>
+        /* Estilo general */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            text-align: center;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Logo y descripción */
+        .logo-section {
+            margin: 30px 0;
+        }
+
+        .logo {
+            width: 120px;
+            height: 120px;
+            background-image: url('logo.png'); /* Cambia 'logo.png' por la ruta de tu imagen */
+            background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+            background-position: center; /* Centra la imagen */
+            border-radius: 50%;
+            margin: 0 auto;
+            box-shadow: 0 4px 10px rgba(255, 0, 128, 0.5);
+        }
+
+        .logo-section h1 {
+            margin: 15px 0;
+            font-size: 28px;
+        }
+
+        .logo-section p {
+            font-size: 16px;
+            color: #cccccc;
+        }
+
+        /* Lista de enlaces */
+        .link-list {
+            margin: 20px 0;
+        }
+
+        .link-item {
+            margin: 15px 0;
+            padding: 12px 20px;
+            background: linear-gradient(135deg, #6a00ff, #ff0080);
+            color: #ffffff;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 30px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+        }
+
+        .link-item a {
+            text-decoration: none;
+            color: #ffffff;
+            display: block;
+            outline: none; /* Evitar el borde azul al hacer clic */
+        }
+
+        .link-item:hover {
+            background: linear-gradient(135deg, #ff0080, #6a00ff);
+            transform: scale(1.05);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.6);
+        }
+
+        /* Eliminar el contorno azul al hacer clic o recibir foco */
+        .link-item a:focus, .link-item a:active {
+            outline: none;
+            box-shadow: none;
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 30px;
+            color: #aaaaaa;
+            font-size: 14px;
+        }
+
+        footer a {
+            color: #6a00ff;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Logo y descripción -->
+        <div class="logo-section">
+            <div class="logo"></div>
+            <h1>Plantilla ATStudios</h1>
+            <p>Explora nuestras soluciones para diseño y optimización de contenido</p>
+        </div>
+
+        <!-- Lista de enlaces -->
+        <div class="link-list">
+            <div class="link-item">
+                <a href="https://example.com/blogger-themes" target="_blank">🌐 Más de 40+ temas para Blogger & Wordpress</a>
+            </div>
+            <div class="link-item">
+                <a href="https://example.com/plantillas-atstudios-2024" target="_blank">🎁 Plantillas ATStudios™ | 2024</a>
+            </div>
+            <div class="link-item">
+                <a href="https://youtube.com/yourchannel" target="_blank">🔴 Síguenos en YouTube</a>
+            </div>
+            <div class="link-item">
+                <a href="https://example.com/updates" target="_blank">🎲 Últimas actualizaciones</a>
+            </div>
+            <div class="link-item">
+                <a href="https://wa.me/1234567890" target="_blank">💬 Contáctanos por WhatsApp</a>
+            </div>
+            <div class="link-item">
+                <a href="https://example.com/novedades" target="_blank">✨ Descubre las novedades para ti</a>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <a href="https://linktr.ee/atstudios" target="_blank">linktr.ee/atstudios</a>
+            <p>Únete a ATStudios hoy en Linktree</p>
+        </footer>
+    </div>
+</body>
+</html>
